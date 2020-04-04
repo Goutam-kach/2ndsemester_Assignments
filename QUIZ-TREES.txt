@@ -1,18 +1,18 @@
                                                  //QUIZ -TRESS//
-		                 -----------------------
+		                            -----------------------
 						P.GOUTAM
 						19BCS085
 						SEC-B
                                      		
 1)List the nodes of the tree below in INORDER, PREORDER and 
    POSTORDER and breadth-first order?
-                                      L
-		/ | \	
+                           L
+		         / | \	
 	                K  I   H
-	               /	\     / | \
+	               /\ / | \
      	             A   J   E F  G
-	                  / \  |
-	                 B C D
+	                / \  |
+	                B C  D
 Ans)INORDER:   AKBJCLIDEFHG
        PREORDER: LKAJBCIHEDFG 
        POSTORDER: ABCJKILDEFHG
@@ -25,30 +25,30 @@ delete 9. Show the Final TREE???
 
 Ans)ADDING 6:
 	             15
-	           /       \
-	         9          23
-	       /    \        /
-	      3      12   19
-	              /         \
-                              10           21
+	           /    \
+	         9       23
+	       /    \     /
+	      3      12  19
+	              /     \
+                     10      21
 	            /
 	           6
 
  ADDING 15:
-		15
+		 15
 		/   \
-	                9      23
-	               /  \      /
-                               3   12  19
-	              	  \     \
-		   10    21
-		   /  \
+	       9     23
+	      /  \    /
+             3   12  19
+	     \     \
+	      10    21
+		    /  \
 		 6     15
 
 DELETING 23;
 
-		15
-		/  \
+		           15
+               		  /  \
 	                9      19
 	              /    \      \
 	            3       12     21
@@ -61,13 +61,13 @@ DELETING 9:     THE FINAL TREE
 
 		15(2)
 		/   \
-	                 3      19
+	        3     19
 		 \       \
 		   12     21
 		   /
 		 10
 		/
-	                6		
+	       6		
 (15 is repeated twice in the given binary tree this can be modified into the above final tree)
 
 (2)yes,the given tree is AVL TREE as the difference between the heights of left and right subtree
@@ -81,23 +81,23 @@ ________________________________________________________________________________
 
 Tree with largest number of nodes 15
 		
-			A
-		                 /   \
-		               B     C
-	                              /    \    /   \
-		           D   E   F   G 
-		         /  \  /  \   /  \   /\
+			         A
+		               /   \
+		             B      C
+	                    / \    /  \
+		          D    E   F   G 
+		         /\   / \ / \  / \
 		        H I  J  K L  M N  O
 
 INTERNAL NODES ---->A,B,C,D,E,F,G
 LEAF NODES------->H,I,J,K,L,M,N,O
                             
 Tree with smallest number of nodes 4
-		A
+		          A
 	                 /
-                                 B
+                        B
 	              /
-                              C
+                     C
 	           /
 	         D
 INTERNAL NODES------>A,B,C
@@ -110,7 +110,7 @@ _____________________________________________________________________________
 	then followed by left child and right child.In b/w left child may be smallest 
 	but not the first one.
 ex:-
-			5
+			           5
 		                /    \
 		              3        8
 		            /   \     /  \
@@ -125,11 +125,11 @@ _______________________________________________________________________________
 6)The post order traversal sequence for binary search tree is given by 
 10,30,20,150,300,200,100
 consider binary tree as
-		A
+		         A
 	               /  \
 	             B     C
 	            /  \   /  \
-	           D   E F   G
+	           D   E F    G
 the post traversal for thus tree will be 
 D E B F G C A
 
@@ -142,15 +142,15 @@ E----->30
 F----->150
 G----->300
 THE FINAL BINARY TREE WILL BE:
-		100
-		/    \
+		         100
+		        /    \
 	              20     200
-	             /   \     /   \
+	             /   \    /  \
 	          10     30 150  300	
 ________________________________________________________________________
 7)If the numbers 7,5,1,8,3,6,0,9,4,2 are inserted in order the binary search tree 
 will be:
-		7
+		        7
 	               /  \
 	             5      8
 	            /  \      \
